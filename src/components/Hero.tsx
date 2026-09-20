@@ -68,9 +68,9 @@ export default function Hero({ onEmailSubmit }: Props) {
 
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center -translate-y-[10%]">
         <h1 className="font-serif tracking-tight text-white leading-[1.1] text-5xl md:text-7xl lg:text-8xl">
-          AI does the work.
+          Humans keep the life.
           <br />
-          <em className="italic text-white/60">Humans keep the life.</em>
+          <em className="italic text-white/60">Together to live.</em>
         </h1>
 
         <form onSubmit={submit} className="mt-10 max-w-xl w-full" noValidate>
