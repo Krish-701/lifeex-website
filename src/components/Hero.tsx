@@ -67,7 +67,10 @@ export default function Hero({ onEmailSubmit }: Props) {
       </header>
 
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center -translate-y-[10%]">
-        <h1 className="font-serif tracking-tight text-white leading-[1.1] text-5xl md:text-7xl lg:text-8xl">
+              <p className="text-white/60 text-sm md:text-base tracking-[0.2em] uppercase mb-6">
+                Lifeex – Together to live
+              </p>
+              <h1 className="font-serif tracking-tight text-white leading-[1.1] text-5xl md:text-7xl lg:text-8xl">
           Humans keep the life.
         </h1>
 
